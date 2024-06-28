@@ -4,26 +4,25 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Proposal | YOUR TITLE HERE</title>
-  <meta name="description" content="Chapter 2 Proposal | YOUR TITLE HERE" />
-  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+  <title>Chapter 2 Proposal | New York City School Safety and Crime Data Analysis</title>
+  <meta name="description" content="Chapter 2 Proposal | New York City School Safety and Crime Data Analysis" />
+  <meta name="generator" content="bookdown 0.39 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Proposal | YOUR TITLE HERE" />
+  <meta property="og:title" content="Chapter 2 Proposal | New York City School Safety and Crime Data Analysis" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Proposal | YOUR TITLE HERE" />
+  <meta name="twitter:title" content="Chapter 2 Proposal | New York City School Safety and Crime Data Analysis" />
   
   
   
 
-<meta name="author" content="YOUR NAMES HERE" />
+<meta name="author" content="Tseng-Han Yu" />
 
 
-<meta name="date" content="2022-10-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,6 +54,10 @@
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -69,7 +72,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">SHORT TITLE HERE</a></li>
+<li><a href="./">SchoolSafety</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
@@ -84,7 +87,20 @@
 <li class="chapter" data-level="3.2" data-path="data.html"><a href="data.html#cleaning-transformation"><i class="fa fa-check"></i><b>3.2</b> Cleaning / transformation</a></li>
 <li class="chapter" data-level="3.3" data-path="data.html"><a href="data.html#missing-value-analysis"><i class="fa fa-check"></i><b>3.3</b> Missing value analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>4</b> Results</a></li>
+<li class="chapter" data-level="4" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>4</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="results.html"><a href="results.html#scatterplot-for-total-crimes-v.s.-total-number-of-students"><i class="fa fa-check"></i><b>4.1</b> Scatterplot for total crimes v.s. total number of students</a></li>
+<li class="chapter" data-level="4.2" data-path="results.html"><a href="results.html#parallel-coordinate-plot-for-school-districts"><i class="fa fa-check"></i><b>4.2</b> Parallel coordinate plot for school districts</a></li>
+<li class="chapter" data-level="4.3" data-path="results.html"><a href="results.html#treemap-for-total-registered-students-and-the-number-of-schools-in-each-districts"><i class="fa fa-check"></i><b>4.3</b> Treemap for total registered students and the number of schools in each districts</a></li>
+<li class="chapter" data-level="4.4" data-path="results.html"><a href="results.html#time-series-of-total-crime-in-new-york-city"><i class="fa fa-check"></i><b>4.4</b> Time Series of total crime in New York City</a></li>
+<li class="chapter" data-level="4.5" data-path="results.html"><a href="results.html#time-series-plot-regarding-number-of-crimes-in-each-category"><i class="fa fa-check"></i><b>4.5</b> Time series plot regarding number of crimes in each category</a></li>
+<li class="chapter" data-level="4.6" data-path="results.html"><a href="results.html#bar-chart-regarding-number-of-schools-at-each-location"><i class="fa fa-check"></i><b>4.6</b> Bar chart regarding number of schools at each location</a></li>
+<li class="chapter" data-level="4.7" data-path="results.html"><a href="results.html#mosaic-plot-school-yearboroughsnumber-of-crimes-in-each-category"><i class="fa fa-check"></i><b>4.7</b> Mosaic plot (school year/boroughs/number of crimes in each category)</a></li>
+<li class="chapter" data-level="4.8" data-path="results.html"><a href="results.html#cleveland-dot-plot"><i class="fa fa-check"></i><b>4.8</b> Cleveland dot plot</a></li>
+<li class="chapter" data-level="4.9" data-path="results.html"><a href="results.html#scatter-plot-matrix-for-5-different-type-of-crimes"><i class="fa fa-check"></i><b>4.9</b> Scatter plot matrix for 5 different type of crimes</a></li>
+<li class="chapter" data-level="4.10" data-path="results.html"><a href="results.html#principle-components-analysis-pca"><i class="fa fa-check"></i><b>4.10</b> Principle components analysis (PCA)</a></li>
+<li class="chapter" data-level="4.11" data-path="results.html"><a href="results.html#scatterplot-with-total-school-and-total-crime"><i class="fa fa-check"></i><b>4.11</b> Scatterplot with total school and total crime</a></li>
+</ul></li>
 <li class="chapter" data-level="5" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>5</b> Interactive component</a></li>
 <li class="chapter" data-level="6" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>6</b> Conclusion</a></li>
 <li class="divider"></li>
@@ -98,7 +114,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">YOUR TITLE HERE</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">New York City School Safety and Crime Data Analysis</a>
           </h1>
         </div>
 
@@ -110,9 +126,15 @@
 <h1><span class="header-section-number">Chapter 2</span> Proposal<a href="proposal.html#proposal" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="research-topic" class="section level2 hasAnchor" number="2.1">
 <h2><span class="header-section-number">2.1</span> Research topic<a href="proposal.html#research-topic" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Nowadays, it is quite common to watch or read the news about crimes that take place in schools. A lot of dreadful incidents have happened in the environment that we are most familiar with. While discussing the topic of our final project, we thought we could take this opportunity to answer questions regarding the school safety issues in New York City, which would be more relevant as it is where we are currently located. Some example questions would be whether the crime rate in New York City schools has gone up over the years, whether the crime rate is higher in some specific boroughs, and if a higher number of registered students indicates higher crime rates. By analyzing the dataset and utilizing data visualization techniques, we are hoping to extract meaningful information regarding the school safety issues in New York City and answers to our questions.</p>
 </div>
 <div id="data-availability" class="section level2 hasAnchor" number="2.2">
 <h2><span class="header-section-number">2.2</span> Data availability<a href="proposal.html#data-availability" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>While searching for datasets that could provide answers to our questions, we came across a few datasets that sparked our interest on NYC Open Data. One of them is the school safety report of New York City public schools from 2010 to 2016, and the other one is the school safety report of New York City public schools from 2015 to 2016. Both datasets include information like the number of crimes for different categories, boroughs where the location is situated, number of registered students at each location, and school year, indicating that they would be sufficient for us to analyze and extract answers and information regarding school safety issues in New York City. As we are also interested in the shift in crime rates over time, we decided to go with the one that is from 2010 to 2016. The data source is [2010-2016 School Safety Report]
+(<a href="https://data.cityofnewyork.us/Education/2010-2016-School-Safety-Report/qybk-bjjc" class="uri">https://data.cityofnewyork.us/Education/2010-2016-School-Safety-Report/qybk-bjjc</a>). We also found the same dataset on Kaggle. Nevertheless, since the one on NYC Open Data is considered from the original source, we chose to proceed with that one.</p>
+<p>The data is collected by the New York City Police Department (NYPD) and is published by the New York City Department of Education (DOE). Furthermore, the NYPD is responsible for maintaining the crime data for incidents that occurred among public schools in New York City, which would then be provided to the DOE for compilation, indicating that maintenance of the data is a collaborative work by the NYPD and the DOE. The update frequency of the data is annually, and the last update was on September 16, 2017, which would make sense as the data only includes information from 2010 to 2016. As DOE is the main agency that is in charge of the data, we would try to get in touch with them if we have any questions about the data.</p>
+<p>The available formats of data include CSV, CSV for Excel, TSV for Excel, RDF, RSS, and XML. To conduct our analysis and apply data visualization techniques, we could download the data in the format of CSV and call functions like read.csv( ) to read in our dataset for further analysis.</p>
+<p>While we do not find any issues with data quality, we do notice that even though the data is claimed to be school safety reports from 2010 to 2016, the data only contains the fiscal years from 2013 to 2016. Nevertheless, as there are over 6000 rows and 30 columns, we still believe we would be able to observe the change throughout the years and the dataset should be sufficient for us to conduct a holistic analysis, which is why we decide to proceed with the dataset as the above should not affect its quality.</p>
 
 </div>
 </div>
@@ -153,7 +175,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/YOUR GITHUB USERNAME/YOUR REPO NAME/edit/main/proposal.Rmd",
+"link": "https://github.com/tsenghyu/NYCSchoolSafety/edit/main/proposal.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -161,7 +183,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/YOUR GITHUB USERNAME/YOUR REPO NAME/blob/main/proposal.Rmd",
+"link": "https://github.com/tsenghyu/NYCSchoolSafety/blob/main/proposal.Rmd",
 "text": null
 },
 "download": null,

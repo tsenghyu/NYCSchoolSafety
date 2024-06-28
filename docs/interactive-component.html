@@ -4,26 +4,25 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Interactive component | YOUR TITLE HERE</title>
-  <meta name="description" content="Chapter 5 Interactive component | YOUR TITLE HERE" />
-  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+  <title>Chapter 5 Interactive component | New York City School Safety and Crime Data Analysis</title>
+  <meta name="description" content="Chapter 5 Interactive component | New York City School Safety and Crime Data Analysis" />
+  <meta name="generator" content="bookdown 0.39 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Interactive component | YOUR TITLE HERE" />
+  <meta property="og:title" content="Chapter 5 Interactive component | New York City School Safety and Crime Data Analysis" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Interactive component | YOUR TITLE HERE" />
+  <meta name="twitter:title" content="Chapter 5 Interactive component | New York City School Safety and Crime Data Analysis" />
   
   
   
 
-<meta name="author" content="YOUR NAMES HERE" />
+<meta name="author" content="Tseng-Han Yu" />
 
 
-<meta name="date" content="2022-10-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,6 +54,10 @@
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -69,7 +72,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">SHORT TITLE HERE</a></li>
+<li><a href="./">SchoolSafety</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
@@ -84,7 +87,20 @@
 <li class="chapter" data-level="3.2" data-path="data.html"><a href="data.html#cleaning-transformation"><i class="fa fa-check"></i><b>3.2</b> Cleaning / transformation</a></li>
 <li class="chapter" data-level="3.3" data-path="data.html"><a href="data.html#missing-value-analysis"><i class="fa fa-check"></i><b>3.3</b> Missing value analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>4</b> Results</a></li>
+<li class="chapter" data-level="4" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>4</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="results.html"><a href="results.html#scatterplot-for-total-crimes-v.s.-total-number-of-students"><i class="fa fa-check"></i><b>4.1</b> Scatterplot for total crimes v.s. total number of students</a></li>
+<li class="chapter" data-level="4.2" data-path="results.html"><a href="results.html#parallel-coordinate-plot-for-school-districts"><i class="fa fa-check"></i><b>4.2</b> Parallel coordinate plot for school districts</a></li>
+<li class="chapter" data-level="4.3" data-path="results.html"><a href="results.html#treemap-for-total-registered-students-and-the-number-of-schools-in-each-districts"><i class="fa fa-check"></i><b>4.3</b> Treemap for total registered students and the number of schools in each districts</a></li>
+<li class="chapter" data-level="4.4" data-path="results.html"><a href="results.html#time-series-of-total-crime-in-new-york-city"><i class="fa fa-check"></i><b>4.4</b> Time Series of total crime in New York City</a></li>
+<li class="chapter" data-level="4.5" data-path="results.html"><a href="results.html#time-series-plot-regarding-number-of-crimes-in-each-category"><i class="fa fa-check"></i><b>4.5</b> Time series plot regarding number of crimes in each category</a></li>
+<li class="chapter" data-level="4.6" data-path="results.html"><a href="results.html#bar-chart-regarding-number-of-schools-at-each-location"><i class="fa fa-check"></i><b>4.6</b> Bar chart regarding number of schools at each location</a></li>
+<li class="chapter" data-level="4.7" data-path="results.html"><a href="results.html#mosaic-plot-school-yearboroughsnumber-of-crimes-in-each-category"><i class="fa fa-check"></i><b>4.7</b> Mosaic plot (school year/boroughs/number of crimes in each category)</a></li>
+<li class="chapter" data-level="4.8" data-path="results.html"><a href="results.html#cleveland-dot-plot"><i class="fa fa-check"></i><b>4.8</b> Cleveland dot plot</a></li>
+<li class="chapter" data-level="4.9" data-path="results.html"><a href="results.html#scatter-plot-matrix-for-5-different-type-of-crimes"><i class="fa fa-check"></i><b>4.9</b> Scatter plot matrix for 5 different type of crimes</a></li>
+<li class="chapter" data-level="4.10" data-path="results.html"><a href="results.html#principle-components-analysis-pca"><i class="fa fa-check"></i><b>4.10</b> Principle components analysis (PCA)</a></li>
+<li class="chapter" data-level="4.11" data-path="results.html"><a href="results.html#scatterplot-with-total-school-and-total-crime"><i class="fa fa-check"></i><b>4.11</b> Scatterplot with total school and total crime</a></li>
+</ul></li>
 <li class="chapter" data-level="5" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>5</b> Interactive component</a></li>
 <li class="chapter" data-level="6" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>6</b> Conclusion</a></li>
 <li class="divider"></li>
@@ -98,7 +114,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">YOUR TITLE HERE</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">New York City School Safety and Crime Data Analysis</a>
           </h1>
         </div>
 
@@ -108,6 +124,119 @@
             <section class="normal" id="section-">
 <div id="interactive-component" class="section level1 hasAnchor" number="5">
 <h1><span class="header-section-number">Chapter 5</span> Interactive component<a href="interactive-component.html#interactive-component" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<script src="https://d3js.org/d3.v7.js"></script>
+<p id="color" style="background-color: silver; color: white;">
+Please select school year:
+</p>
+<p><input type="radio" id="html" name="fav_color" value="bardata1"> 2013-2014
+<input type="radio" id="css" name="fav_color" value="bardata2"> 2014-2015
+<input type="radio" id="javascript" name="fav_color" value="bardata3"> 2015-2016</p>
+<svg id="gup">
+</svg>
+<script>
+      const w = 450;  // change this value and see what happens
+      const h = 300;
+      const margin = {top: 25, right: 0, bottom: 25, left: 50};
+      const innerWidth = w - margin.left - margin.right;
+      const innerHeight = h - margin.top - margin.bottom;
+    
+    d3.select("svg#gup")
+    .attr("width", w)
+    .attr("height", h);
+    
+    d3.select("svg#gup")
+    .append("rect")
+    .attr("x", 0)
+    .attr("y", 0)
+    .attr("width", w)
+    .attr("height", h)
+    .attr("fill", "aliceblue");
+
+    
+    const bardata1 = [{key: "major_crime", value: 649},
+                      {key: "other_crime", value: 2461},
+                      {key: "non-criminal_crime", value: 3759},
+                      {key: "property_crime", value: 1585},
+                      {key: "violent_crime", value: 1067}];
+      
+    const bardata2 = [{key: "major_crime", value: 606},
+                      {key: "other_crime", value: 2264},
+                      {key: "non-criminal_crime", value: 3941},
+                      {key: "property_crime", value: 1554},
+                      {key: "violent_crime", value: 1048}];
+    
+    const bardata3 = [{key: "major_crime", value: 521},
+                      {key: "other_crime", value: 2196},
+                      {key: "non-criminal_crime", value: 4053},
+                      {key: "property_crime", value: 1332},
+                      {key: "violent_crime", value: 1058}];
+
+    const metadata = {"bardata1": bardata1,
+                      "bardata2": bardata2,
+                      "bardata3": bardata3}
+
+      const xScale = d3.scaleBand()
+      .domain(bardata1.map(d => d.key))
+      .range([0, innerWidth])
+      .paddingInner(.1);
+        
+    const yScale = d3.scaleLinear()
+      .domain([0, 4200])
+      .range([innerHeight, 0])
+      
+    const xAxis = d3.axisBottom()
+      .scale(xScale);
+      
+    const yAxis = d3.axisLeft()
+      .scale(yScale);
+      
+    const bars = 
+        d3.select("svg#gup")
+        .append("g")
+        .attr("id", "plot")
+      .attr("transform", `translate (${margin.left}, ${margin.top})`)
+      .selectAll("rect")
+      .data(bardata1);
+    
+    const svg = 
+      d3.select("svg#gup");
+
+       bars.enter().append("rect")
+      .attr("x", d => xScale(d.key))
+      .attr("y", d => yScale(d.value))
+      .attr("width", xScale.bandwidth())
+      .attr("height", d => innerHeight - yScale(d.value))
+      .attr("fill", "lightgreen");
+      
+      svg.append("g")
+      .attr("class", "xAxis")
+      .attr("transform", `translate (${margin.left}, ${h - margin.bottom})`)
+      .call(xAxis);
+
+    svg.append("g")
+      .attr("class", "yAxis")
+      .attr("transform", `translate (${margin.left}, ${margin.top})`)
+      .call(yAxis);
+      
+    
+    d3.selectAll("input")
+    .on("click", function(event) {
+      const favcolor = event.currentTarget.value
+      
+      d3.select("svg#gup").select("g#plot")
+      .selectAll("rect")
+      .data(metadata[favcolor])
+      .attr("x", d => xScale(d.key))
+      .attr("width", xScale.bandwidth())
+      .transition()
+      .duration(3000)
+      .attr("height", d => innerHeight - yScale(d.value))
+      .attr("y", d => yScale(d.value));
+      });
+          
+</script>
+<p>What is the change in overall school safety in NYC over years? To answer this question, we have made a time series plot to visualize changes between the total numbers of five types of school crime for 3 consecutive school years. We observed a mixed message, as some are increasing, some are decreasing, and others remain the same. We also notice the total number of each different type of school crime varies. To better understand those changes and have a sense of overall school safety, We made a bar chart by D3 to better visualize our result.
+By clicking buttons representing different school years, we can observe the change in the total number of different types of crime. By observing the magnitude of change in each bar chart, we have a general understanding of how school safety in NYC changes over time. This provides more insight than just looking at a static time series plot.</p>
 
 </div>
             </section>
@@ -147,7 +276,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/YOUR GITHUB USERNAME/YOUR REPO NAME/edit/main/interactive.Rmd",
+"link": "https://github.com/tsenghyu/NYCSchoolSafety/edit/main/interactive.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -155,7 +284,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/YOUR GITHUB USERNAME/YOUR REPO NAME/blob/main/interactive.Rmd",
+"link": "https://github.com/tsenghyu/NYCSchoolSafety/blob/main/interactive.Rmd",
 "text": null
 },
 "download": null,
